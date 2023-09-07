@@ -1,0 +1,27 @@
+POST http://localhost:4403/videos
+Content-Type: application/json
+
+{
+    "title": "First video node",
+    "description": "This is the first video",
+    "duration": 200
+}
+
+###
+
+GET http://localhost:4403/videos
+
+###
+
+PUT http://localhost:4403/videos/2b0b9424-04c6-4c95-b5d3-7917875736d3
+Content-Type: application/json
+
+{
+    "title": "First video :)",
+    "description": "This is the first video",
+    "duration": 200
+}
+
+###
+
+DELETE http://localhost:4403/videos/2b0b9424-04c6-4c95-b5d3-7917875736d3
